@@ -1,7 +1,9 @@
 <template>
   <SimpleNewsletter v-slot="{ slotProps }">
     <div class="newsletter__wrap">
-      <div class="newsletter__title">{{ slotProps.title }}</div>
+      <div v-if="showTitle" class="newsletter__title">
+        {{ slotProps.title }}
+      </div>
       <div class="newsletter__content">{{ slotProps.content }}</div>
       <div class="newsletter__fields">
         <input
@@ -28,6 +30,16 @@
 import SimpleNewsletter from 'vuepress-plugin-mailchimp/src/components/SimpleNewsletter'
 export default {
   components: { SimpleNewsletter },
+  props: {
+    showTitle: {
+      type: Boolean,
+      default: true,
+    },
+    text: {
+      type: String,
+      default: '',
+    },
+  },
 }
 </script>
 

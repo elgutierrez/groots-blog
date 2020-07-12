@@ -1,40 +1,45 @@
 <template>
-<section id="header-wrapper">
-<header id="header">
-<div class="header-wrapper">
-<nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
-<div class="container">
-<NavLink link="/" class="navbar-brand"><img :src="($withBase)($themeConfig.logo)"> {{ $site.title }} </NavLink>
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarsExampleDefault">
-<ul v-if="$themeConfig.nav" class="navbar-nav ml-auto">
-<li
-v-for="item in $themeConfig.nav"
-:key="item.text"
-class="nav-item"
->
-<NavLink :link="item.link" class="nav-link">{{ item.text }}</NavLink>
-</li>
-<SearchBox />
-<Feed />
-</ul>
-</div>
-</div>
-</nav>
-</div>
-</header>
-</section>
+  <section id="header-wrapper">
+    <header id="header">
+      <div class="header-wrapper">
+        <nav class="navbar navbar-expand-md navbar-light bg-white fixed-top">
+          <div class="container">
+            <NavLink link="/" class="navbar-brand"
+              ><img :src="$withBase($themeConfig.logo)" /> {{ $site.title }}
+            </NavLink>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarsExampleDefault"
+              aria-controls="navbarsExampleDefault"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbarsExampleDefault" class="collapse navbar-collapse">
+              <ul v-if="$themeConfig.nav" class="navbar-nav ml-auto">
+                <li
+                  v-for="item in $themeConfig.nav"
+                  :key="item.text"
+                  class="nav-item"
+                >
+                  <NavLink :link="item.link" class="nav-link">{{
+                    item.text
+                  }}</NavLink>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </section>
 </template>
 
 <script>
-import SearchBox from '@SearchBox'
-import Feed from './Feed'
-
-export default {
-  components: { SearchBox, Feed },
-}
+export default {}
 </script>
 
 <style lang="stylus">
@@ -71,30 +76,6 @@ export default {
         a
           text-decoration none
           transition color 0.3s
-
-    .search-box
-      margin-left 20px
-
-      input
-        border-radius 5px
-        transition all 0.5s
-        border 1px solid #cecece
-
-        &:hover
-          border 1px solid $accentColor
-          box-shadow 0 0 5px $accentColor
-
-      .suggestions
-        border 1px solid $darkBorderColor
-        top 40px
-        right 0
-
-        a
-          color $darkTextColor
-          text-decoration none
-
-          &.focused
-            color $accentColor
 
 @media (max-width: $MQMobile)
   #header
