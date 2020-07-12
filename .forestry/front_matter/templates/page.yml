@@ -14,4 +14,5 @@ fields:
   label: description
 pages:
 - docs/about.md
+- docs/app.md
 - docs/index.md
