@@ -12,7 +12,7 @@
             <li
               v-for="item in contact"
               :key="item.iconComponent"
-              class="contact-item"
+              class="contact-item ml-2"
             >
               <NavLink :link="item.link">
                 <component :is="item.iconComponent"></component>
@@ -104,3 +104,9 @@ export default {
   },
 }
 </script>
+<style lang="stylus" scoped>
+.contact-item
+  display: inline-block;
+  *display:inline;
+  /* this fix is needed for IE7- */
+</style>

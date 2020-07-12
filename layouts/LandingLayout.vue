@@ -3,7 +3,7 @@
     <div class="hero">
       <div class="container wrapmain">
         <div class="row align-items-center justify-content-between">
-          <div class="col-md-6">
+          <div class="col-md-6 pt-6">
             <h1>
               {{ $frontmatter.heroText }}
               <span class="text-green">
@@ -11,10 +11,13 @@
               </span>
             </h1>
             <div>{{ $frontmatter.tagline }}</div>
-            <Newsletter :show-title="false" />
+            <Newsletter
+              :show-title="false"
+              :text="$frontmatter.newsletterText"
+            />
           </div>
           <div class="col-md-6 text-center">
-            <img src="/assets/img/screenshot.svg" />
+            <img class="app-image" src="/assets/img/screenshot.svg" />
           </div>
         </div>
       </div>
@@ -31,3 +34,7 @@ export default {
   }
 }
 </script>
+<style lang="stylus" scoped>
+.app-image
+  max-width 340px
+</style>
