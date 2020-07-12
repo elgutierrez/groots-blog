@@ -104,6 +104,12 @@ module.exports = themeConfig => {
     ],
     ['@vuepress/blog', blogPluginOptions],
     ['smooth-scroll', enableSmoothScroll],
+    [
+      '@vuepress/google-analytics',
+      {
+        ga: 'UA-92411125-1',
+      },
+    ],
   ]
 
   /**
