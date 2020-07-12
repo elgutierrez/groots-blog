@@ -3,7 +3,7 @@ module.exports = {
   base: '/',
   dest: 'public',
   home: true,
-  description: 'Your indoor grow asssistant',
+  description: 'Your indoor grow assistant',
   logo: './assets/img/logo.svg',
   logoDark: './assets/img/logo_dark.svg',
   theme: require.resolve('../../'),
