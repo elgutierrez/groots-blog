@@ -1,49 +1,51 @@
 <template>
-  <div id="vuepress-theme-blog__post-layout">
-    <article
-      class="vuepress-blog-theme-content"
-      itemscope
-      itemtype="https://schema.org/BlogPosting"
-    >
-      <div class="row justify-content-center">
-        <div class="col-md-8">
-          <header>
-            <span class="text-muted"
-              ><PostMeta :date="$frontmatter.date"
-            /></span>
-            <h1 class="article-head mt-3" itemprop="name headline">
-              {{ $frontmatter.title }}
-            </h1>
-            <p class="lead">{{ $frontmatter.description }}</p>
+  <div class="container wrapmain">
+    <div id="vuepress-theme-blog__post-layout">
+      <article
+        class="vuepress-blog-theme-content"
+        itemscope
+        itemtype="https://schema.org/BlogPosting"
+      >
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <header>
+              <span class="text-muted"
+                ><PostMeta :date="$frontmatter.date"
+              /></span>
+              <h1 class="article-head mt-3" itemprop="name headline">
+                {{ $frontmatter.title }}
+              </h1>
+              <p class="lead">{{ $frontmatter.description }}</p>
 
-            <Avatar />
-          </header>
+              <Avatar />
+            </header>
+          </div>
         </div>
-      </div>
 
-      <div class="row justify-content-center text-center mt-4 mb-40">
+        <div class="row justify-content-center text-center mt-4 mb-40">
+          <div class="col-md-9">
+            <img class="featuredimg" :src="$frontmatter.featuredimg" />
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <Content itemprop="articleBody" />
+
+            <PostMeta :tags="$frontmatter.tags" />
+          </div>
+        </div>
+      </article>
+
+      <div class="row justify-content-center">
         <div class="col-md-9">
-          <img class="featuredimg" :src="$frontmatter.featuredimg" />
+          <Newsletter v-if="$service.email.enabled" />
+          <Comment />
         </div>
       </div>
 
-      <div class="row justify-content-center">
-        <div class="col-md-8">
-          <Content itemprop="articleBody" />
-
-          <PostMeta :tags="$frontmatter.tags" />
-        </div>
-      </div>
-    </article>
-
-    <div class="row justify-content-center">
-      <div class="col-md-9">
-        <Newsletter v-if="$service.email.enabled" />
-        <Comment />
-      </div>
+      <Toc />
     </div>
-
-    <Toc />
   </div>
 </template>
 
