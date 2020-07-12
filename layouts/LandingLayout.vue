@@ -11,6 +11,16 @@
               </span>
             </h1>
             <div>{{ $frontmatter.tagline }}</div>
+            <div style="width: 200px;">
+              <a
+                href="https://play.google.com/store/apps/details?id=com.app.groots"
+              >
+                <img
+                  alt="Get it on Google Play"
+                  src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
+                />
+              </a>
+            </div>
             <Newsletter
               :show-title="false"
               :text="$frontmatter.newsletterText"
