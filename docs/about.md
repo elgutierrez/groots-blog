@@ -1,8 +1,8 @@
 ---
 title: About
-description: A simple page about this site
+description: About Groots and the Team
 
 ---
 # About
 
-This VuePress theme was imported in [Forestry](https:://forestry.io), a git-backed headless CMS.
+Groots started many years ago (...)
