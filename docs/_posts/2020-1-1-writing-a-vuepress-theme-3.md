@@ -7,7 +7,7 @@ tags:
 - grow
 - app
 author: Carlo
-featuredimg: https://images.unsplash.com/photo-1576772269684-6c3b810ac8a9?ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80
+featuredimg: "/assets/img/rick-proctor-pgc9vid8o24-unsplash.jpg"
 summary: This is our initial blog post!
 
 ---
