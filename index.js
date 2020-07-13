@@ -19,6 +19,10 @@ module.exports = themeConfig => {
         link: '/blog/',
       },
     ],
+    playstoreUrl:
+      'https://play.google.com/store/apps/details?id=com.app.groots',
+    newsletterText:
+      "We're working hard in a new version 🎉 Would you like to stay updated? Subscribe to our newsletter!",
     summary: themeConfig.summary === undefined ? true : themeConfig.summary,
     summaryLength:
       typeof themeConfig.summaryLength === 'number'
@@ -43,6 +47,13 @@ module.exports = themeConfig => {
         id: 'tag',
         keys: ['tags'],
         path: '/tag/',
+      },
+    ],
+    frontmatters: [
+      {
+        id: 'category',
+        keys: ['category'],
+        path: '/category/',
       },
     ],
     globalPagination: {

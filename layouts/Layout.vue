@@ -5,6 +5,9 @@
   </div>
 </template>
 <style lang="stylus" scoped>
+.container
+  min-height: calc(100vh - 434px)
+
 #vuepress-theme-blog__global-layout
   word-wrap break-word
 

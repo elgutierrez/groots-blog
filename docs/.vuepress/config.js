@@ -77,7 +77,7 @@ module.exports = {
     },
     comment: {
       service: 'disqus',
-      shortname: 'demowebsite',
+      shortname: 'groots-1',
     },
     newsletter: {
       endpoint: 'https://app.us10.list-manage.com/subscribe/post?u=331b1e53e07b0b5b75b3367f8&amp;id=d8dcd1fed0'

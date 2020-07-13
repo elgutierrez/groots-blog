@@ -12,22 +12,17 @@
             </h1>
             <div>{{ $frontmatter.tagline }}</div>
             <div style="width: 200px;">
-              <a
-                href="https://play.google.com/store/apps/details?id=com.app.groots"
-              >
+              <a :href="$themeConfig.playstoreUrl">
                 <img
                   alt="Get it on Google Play"
                   src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
                 />
               </a>
             </div>
-            <Newsletter
-              :show-title="false"
-              :text="$frontmatter.newsletterText"
-            />
+            <Newsletter />
           </div>
           <div class="col-md-6 text-center">
-            <img class="app-image" src="/assets/img/screenshot.svg" />
+            <img class="app-image" src="/assets/img/screenshot2.svg" />
           </div>
         </div>
       </div>
@@ -45,6 +40,8 @@ export default {
 }
 </script>
 <style lang="stylus" scoped>
+.hero
+  min-height: calc(100vh - 434px)
 .app-image
-  max-width 340px
+  max-width 440px
 </style>

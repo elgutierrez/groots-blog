@@ -6,6 +6,7 @@ tags:
 - indoor
 - grow
 - app
+category: grow
 author: Carlo
 featuredimg: "/assets/img/rick-proctor-pgc9vid8o24-unsplash.jpg"
 summary: This is our initial blog post!

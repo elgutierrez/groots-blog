@@ -4,7 +4,9 @@
       <div v-if="showTitle" class="newsletter__title">
         {{ slotProps.title }}
       </div>
-      <div class="newsletter__content">{{ text || slotProps.content }}</div>
+      <div class="newsletter__content">
+        {{ text ? text : $themeConfig.newsletterText }}
+      </div>
       <div class="newsletter__fields">
         <input
           v-model="slotProps.mail"
@@ -33,7 +35,7 @@ export default {
   props: {
     showTitle: {
       type: Boolean,
-      default: true,
+      default: false,
     },
     text: {
       type: String,
