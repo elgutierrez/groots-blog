@@ -94,6 +94,7 @@ export default {
             p.frontmatter.category === this.$frontmatter.category
         )
         .sort((a, b) => a.frontmatter.date - b.frontmatter.date)
+        .splice(0, 3)
     },
   },
 }
