@@ -1,7 +1,6 @@
 <template>
   <router-link
     v-if="!isExternal(normalizedlink)"
-    class=""
     :to="normalizedlink"
     :exact="exact"
   >
@@ -30,6 +29,7 @@ import { isExternal, isMailto, isTel, ensureExt } from '../components/util'
 export default {
   props: {
     link: {
+      type: String,
       required: true,
     },
   },
@@ -59,9 +59,10 @@ export default {
 
 <style lang="stylus">
 .nav-link
-  color $darkTextColor
+  text-transform: uppercase
+  color: $textColor
 
 .nav-link
   &:hover, &.router-link-active
-    color $accentColor
+    color $accentColor !important
 </style>

@@ -29,11 +29,11 @@
               <NavLink :link="item.link">{{ item.text }}</NavLink>
             </li>
           </ul>
+          <a href="https://www.freepik.com/free-photos-vectors/design">
+            Design vector created by freepik - www.freepik.com
+          </a>
         </div>
       </div>
-      <a href="https://www.freepik.com/free-photos-vectors/design"
-        >Design vector created by freepik - www.freepik.com</a
-      >
     </div>
   </footer>
 </template>
