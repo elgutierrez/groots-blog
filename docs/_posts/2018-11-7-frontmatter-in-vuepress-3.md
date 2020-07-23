@@ -27,7 +27,7 @@ The germination phase is the one that requires the most humidity in the life cyc
 
 Make sure the plant has a lot of light exposure. If by germination time you have long sunny days where you live, and you can manage to have it under the sun all day long, perfect. check in the app how is your sun exposure based on your geolocation. 
 
-If you need artificial lighting, get yourself a powerful lamp. If you bought our starter’s kit (HYPERLINK), you're good. Otherwise, you can do just as fine with one of these inexpensive options:
+If you need artificial lighting, get yourself a powerful lamp. If you bought our starter’s kit, you're good. Otherwise, you can do just as fine with one of these inexpensive options:
 
 * Compact Fluorescent Lamp (CFL) of at least 125W - more energy-efficient
 * High Intensity Discharge (HID) lamp of 150W to 250W - better for plant growth, but higher in energy consumption
@@ -37,7 +37,7 @@ Germination and vegetative phases require a lot of light everyday. To cover both
 
 If you’re a gardener AND a poet, gradually reduce the exposure hours week by week until you get to 12/12, as if it was the fall season approaching. Naturally, there will be a dedicated post on how to trigger the flowering phase.
 
-Now you have your plant growing gloriously everyday. At some point you might need to put it in a bigger pot. Same rule goes as with any other plant. If you start to see the roots coming out of the draining holes, it means more space is needed. Find her a bigger pot and she will be fine!
+Now you have your plant growing gloriously everyday. At some point you might need to put it in a bigger pot to allow it to keep growing. Same rule goes as with any other plant. If you start to see the roots coming out of the draining holes, it means more space is needed. Find her a bigger pot and she will be fine!
 
 Back soon with more valuable tips!
 
