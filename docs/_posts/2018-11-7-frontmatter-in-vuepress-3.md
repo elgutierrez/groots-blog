@@ -31,11 +31,11 @@ If you need artificial lighting, get yourself a powerful lamp. If you bought our
 
 * Compact Fluorescent Lamp (CFL) of at least 125W - more energy-efficient
 * High Intensity Discharge (HID) lamp of 150W to 250W - better for plant growth, but higher in energy consumption
-* LED lights, which are more expensive to buy but cheaper on your energy bill - these are more tricky and we'll have a dedicated blog post to 
+* LED lights, which are more expensive to buy but cheaper on your energy bill - these are more tricky and we'll have a dedicated blog post to compare it to the other too.
 
-Germination and vegetative phases require a lot of light everyday. To cover both periods, you can set your timer (yes, this one you need) to at least 16h/day with the lights on. To trigger the flowering phase, switch to 12/12 when the time comes, and the plant will understand it’s time for some flowers (magical, is it not?).
+Germination and vegetative phases require a lot of light everyday. To cover both periods, you can set your timer (this one you really need) to at least 16h/day with the lights on. To trigger the flowering phase, switch to 12on/12off when the time comes, and the plant will understand it’s time for some flowers (magical, is it not?).
 
-Or, if you’re a gardener AND a poet, gradually reduce the exposure hours week by week, as if it was the fall season approaching little by little. Naturally, there will be a dedicated post on how to trigger the flowering phase.
+If you’re a gardener AND a poet, gradually reduce the exposure hours week by week until you get to 12/12, as if it was the fall season approaching. Naturally, there will be a dedicated post on how to trigger the flowering phase.
 
 Now you have your plant growing gloriously everyday. At some point you might need to put it in a bigger pot. Same rule goes as with any other plant. If you start to see the roots coming out of the draining holes, it means more space is needed. Find her a bigger pot and she will be fine!
 
