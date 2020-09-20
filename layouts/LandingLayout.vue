@@ -22,7 +22,17 @@
             <Newsletter />
           </div>
           <div class="col-md-6 text-center">
-            <img class="app-image" src="/assets/img/screenshot2.svg" />
+            <div class="app-image">
+              <img
+                class="app-image-screenshot"
+                src="/assets/img/screenshots/screenshot1.jpg"
+              />
+              <img class="app-image-frame" src="/assets/img/phone.svg" />
+            </div>
+            <div class="app-image-bg">
+              <img class="leaf1" src="/assets/img/cannabis-leaf.png" />
+              <img class="leaf2" src="/assets/img/cannabis-leaf.png" />
+            </div>
           </div>
         </div>
       </div>
@@ -43,5 +53,34 @@ export default {
 .hero
   min-height: calc(100vh - 434px)
 .app-image
-  max-width 440px
+  position inherit
+  z-index 1
+  display flex
+  align-items: center;
+  justify-content: center;
+  > img
+    // position absolute
+  .app-image-screenshot
+    height 360px
+    z-index 2
+  .app-image-frame
+    height 440px
+    position absolute
+
+.app-image-bg
+  position absolute
+  left 0
+  top 0
+  z-index 0
+  width 100%
+  > img
+    position absolute
+    width 60%
+    top 50px
+  .leaf1
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    left 0
+  .leaf2
+    right 0px
 </style>
