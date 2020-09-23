@@ -19,7 +19,7 @@
                 />
               </a>
             </div>
-            <Newsletter />
+            <WaitingListForm />
           </div>
           <div class="col-md-6 text-center">
             <div class="app-image">
@@ -41,11 +41,11 @@
   </div>
 </template>
 <script lang="js">
-import Newsletter from '@theme/components/Newsletter.vue';
+import WaitingListForm from '@theme/components/WaitingListForm.vue';
 
 export default {
   components: {
-    Newsletter
+    WaitingListForm
   }
 }
 </script>

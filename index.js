@@ -22,7 +22,7 @@ module.exports = themeConfig => {
     playstoreUrl:
       'https://play.google.com/store/apps/details?id=com.app.groots',
     newsletterText:
-      "We're working hard in a new version 🎉 Would you like to stay updated? Subscribe to our newsletter!",
+      "We're working hard in a new version 🎉 Would you like to stay updated? Join the waiting list and subscribe to our newsletter!",
     summary: themeConfig.summary === undefined ? true : themeConfig.summary,
     summaryLength:
       typeof themeConfig.summaryLength === 'number'
